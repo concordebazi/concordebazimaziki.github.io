@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Concorde Bazimaziki</title>
+</head>
+
+<body>
+
+<h1>Concorde Bazimaziki</h1>
+
+<h2>Hydrographic Data Processor | GIS Engineer</h2>
+
+<p>
+Welcome to my professional portfolio.
+</p>
+
+<h2>About Me</h2>
+
+<p>
+I am a Geomatics professional specializing in Hydrographic Data Processing, GIS and Python.
+</p>
+
+<h2>Skills</h2>
+
+<ul>
+<li>Python</li>
+<li>GIS</li>
+<li>QGIS</li>
+<li>CARIS HIPS</li>
+<li>Qimera</li>
+<li>FMGT</li>
+<li>GeoPandas</li>
+<li>PostGIS</li>
+</ul>
+
+<h2>Projects</h2>
+
+<ul>
+<li>Bathymetry Processing</li>
+<li>MBES Quality Control</li>
+<li>GIS Automation</li>
+<li>Python for Hydrography</li>
+</ul>
+
+</body>
+</html>
