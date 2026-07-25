@@ -338,3 +338,29 @@ L.marker(location.coords)
 
 }
 
+/* =====================================================
+   LANGUAGE TRANSLATION
+===================================================== */
+
+
+function changeLanguage(language){
+
+
+const elements =
+document.querySelectorAll("[data-en]");
+
+
+
+elements.forEach(element=>{
+
+
+element.textContent =
+element.getAttribute(
+"data-" + language
+);
+
+
+});
+
+
+}
