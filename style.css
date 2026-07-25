@@ -869,3 +869,39 @@ color:#003b5c;
 
 }
 
+/* LANGUAGE BUTTONS */
+
+
+.language-switch button{
+
+
+background:#00a8cc;
+
+color:white;
+
+border:none;
+
+padding:8px 15px;
+
+margin:5px;
+
+border-radius:20px;
+
+cursor:pointer;
+
+font-weight:bold;
+
+
+}
+
+
+
+.language-switch button:hover{
+
+
+background:white;
+
+color:#003b5c;
+
+
+}
