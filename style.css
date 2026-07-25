@@ -1,0 +1,113 @@
+body {
+
+font-family: Arial, sans-serif;
+margin:0;
+background:#081b29;
+color:white;
+
+}
+
+
+nav {
+
+display:flex;
+justify-content:space-between;
+padding:20px;
+
+}
+
+
+nav ul {
+
+display:flex;
+gap:20px;
+list-style:none;
+
+}
+
+
+nav a {
+
+color:white;
+text-decoration:none;
+
+}
+
+
+
+.hero {
+
+text-align:center;
+padding:50px;
+
+}
+
+
+.hero img {
+
+width:180px;
+height:180px;
+border-radius:50%;
+
+}
+
+
+
+.button {
+
+background:#00a8ff;
+padding:15px 25px;
+color:white;
+text-decoration:none;
+border-radius:5px;
+
+}
+
+
+
+section {
+
+padding:50px;
+
+}
+
+
+
+.card {
+
+
+background:#102d44;
+padding:25px;
+margin:20px;
+border-radius:10px;
+
+
+}
+
+
+
+.skills {
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+
+
+}
+
+
+.skills div {
+
+background:#123;
+padding:25px;
+border-radius:10px;
+
+}
+
+
+
+#map-container {
+
+height:500px;
+
+}
