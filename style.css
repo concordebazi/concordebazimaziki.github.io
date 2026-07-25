@@ -701,4 +701,102 @@ box-shadow:0 10px 30px rgba(0,0,0,0.2);
 margin-top:30px;
 
 }
+/* =====================================================
+   GALLERY
+===================================================== */
+
+
+.gallery-container{
+
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:25px;
+
+
+}
+
+
+
+.gallery-card{
+
+
+background:white;
+
+border-radius:15px;
+
+overflow:hidden;
+
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+transition:.4s;
+
+
+}
+
+
+
+.gallery-card:hover{
+
+
+transform:translateY(-10px);
+
+
+}
+
+
+
+.gallery-card img{
+
+
+width:100%;
+
+height:220px;
+
+object-fit:cover;
+
+
+}
+
+
+
+.gallery-card h3{
+
+
+padding:15px;
+
+color:#006994;
+
+
+}
+
+
+
+.gallery-card p{
+
+
+padding:0 15px 20px;
+
+
+}
+
+
+
+
+
+@media(max-width:900px){
+
+
+.gallery-container{
+
+
+grid-template-columns:1fr;
+
+
+}
+
+
+}
 
