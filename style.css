@@ -683,4 +683,22 @@ grid-template-columns:1fr;
 
 
 }
+/* =====================================================
+   INTERACTIVE MAP
+===================================================== */
+
+
+#map{
+
+height:500px;
+
+width:100%;
+
+border-radius:20px;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+
+margin-top:30px;
+
+}
 
