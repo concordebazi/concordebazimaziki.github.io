@@ -222,4 +222,119 @@ Geomatics Engineer | Hydrographic Data Processing Specialist
 `;
 
 }
+/* =====================================================
+   INTERACTIVE CAREER MAP
+===================================================== */
+
+
+const mapElement = document.getElementById("map");
+
+
+if(mapElement){
+
+
+const map = L.map("map").setView([20,10],2);
+
+
+
+L.tileLayer(
+
+"https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+
+{
+
+attribution:
+'© OpenStreetMap contributors'
+
+}
+
+).addTo(map);
+
+
+
+
+
+// Locations
+
+const locations=[
+
+
+{
+
+name:"University of Rwanda",
+
+coords:[-1.95,30.06],
+
+text:"Bachelor degree in Geography, Environment and Development."
+
+},
+
+
+
+{
+
+name:"Lund University - Sweden",
+
+coords:[55.71,13.21],
+
+text:"Master's degree in Geomatics."
+
+},
+
+
+
+{
+
+name:"Swedish Maritime Administration",
+
+coords:[58.59,16.18],
+
+text:"Map Engineer - Hydrographic data, nautical charts and marine cartography."
+
+},
+
+
+
+{
+
+name:"Ocean Infinity - Gothenburg",
+
+coords:[57.71,11.97],
+
+text:"Hydrographic Data Processor Grade 1 - offshore survey data processing."
+
+}
+
+
+
+];
+
+
+
+
+
+locations.forEach(location=>{
+
+
+L.marker(location.coords)
+
+.addTo(map)
+
+.bindPopup(
+
+`
+
+<h3>${location.name}</h3>
+
+<p>${location.text}</p>
+
+`
+
+);
+
+
+});
+
+
+}
 
