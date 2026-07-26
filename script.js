@@ -364,3 +364,109 @@ element.getAttribute(
 
 
 }
+/* =====================================================
+   AUTOMATIC LANGUAGE DETECTION
+===================================================== */
+
+
+function changeLanguage(lang){
+
+
+localStorage.setItem(
+"preferredLanguage",
+lang
+);
+
+
+
+document.getElementById("nav-home").textContent =
+translations[lang].home;
+
+
+document.getElementById("nav-about").textContent =
+translations[lang].about;
+
+
+document.getElementById("nav-experience").textContent =
+translations[lang].experience;
+
+
+document.getElementById("nav-skills").textContent =
+translations[lang].skills;
+
+
+document.getElementById("nav-projects").textContent =
+translations[lang].projects;
+
+
+document.getElementById("nav-gallery").textContent =
+translations[lang].gallery;
+
+
+document.getElementById("nav-cv").textContent =
+translations[lang].cv;
+
+
+document.getElementById("nav-contact").textContent =
+translations[lang].contact;
+
+
+}
+
+
+
+
+
+/* Detect visitor language */
+
+
+window.onload=function(){
+
+
+
+let savedLanguage =
+localStorage.getItem(
+"preferredLanguage"
+);
+
+
+
+if(savedLanguage){
+
+
+changeLanguage(savedLanguage);
+
+
+}
+
+
+else{
+
+
+let browserLanguage =
+navigator.language;
+
+
+
+if(browserLanguage.startsWith("sv")){
+
+
+changeLanguage("sv");
+
+
+}
+
+else{
+
+
+changeLanguage("en");
+
+
+}
+
+
+}
+
+
+
+};
