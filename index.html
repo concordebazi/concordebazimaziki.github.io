@@ -66,17 +66,52 @@ CB47
 
 <ul class="nav-links">
 
-<li><a href="#home">Home</a></li>
+<li>
+<a href="#home"
+id="nav-home">
+Home
+</a>
+</li>
 
-<li><a href="#about">About</a></li>
+<li>
+<a href="#About"
+id="nav-About">
+About
+</a>
+</li>
 
-<li><a href="#experience">Experience</a></li>
+<li>
+<a href="#experience"
+id="nav-Experience">
+Experience
+</a>
+</li>
 
-<li><a href="#skills">Skills</a></li>
+<li>
+<a href="#skills"
+id="nav-Skills">
+Skills
+</a>
+</li>
 
-<li><a href="#projects">Projects</a></li>
-<li><a href="#cv">CV</a></li>
-<li><a href="#contact">Contact</a></li>
+<li>
+<a href="#projects"
+id="nav-Projects">
+Projects
+</a>
+</li>
+<li>
+<a href="#cv"
+id="nav-CV">
+CV
+</a>
+</li>
+<li>
+<a href="#contact"
+id="nav-Contact">
+Contact
+</a>
+</li>
 
     <div class="language-switch">
 
@@ -95,7 +130,19 @@ CB47
 <div class="menu-btn">
 <i class="fas fa-bars"></i>
 </div>
+<div class="language-switch">
 
+<button onclick="changeLanguage('en')">
+🇬🇧 English
+</button>
+
+
+<button onclick="changeLanguage('sv')">
+🇸🇪 Svenska
+</button>
+
+</div>
+    
 
 </nav>
 
@@ -893,7 +940,72 @@ Geomatics Engineer | Hydrographic Data Processing Specialist
 
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
+<script>
 
+const translations = {
+
+
+en:{
+
+
+home:"Home",
+
+about:"About Me",
+
+experience:"Professional Experience",
+
+skills:"Technical Skills",
+
+projects:"Projects",
+
+gallery:"Gallery",
+
+cv:"CV",
+
+contact:"Contact",
+
+
+intro:
+"Geomatics Engineer | Hydrographic Data Processing Specialist | GIS Professional"
+
+
+
+},
+
+
+
+sv:{
+
+
+home:"Hem",
+
+about:"Om mig",
+
+experience:"Yrkeserfarenhet",
+
+skills:"Tekniska färdigheter",
+
+projects:"Projekt",
+
+gallery:"Galleri",
+
+cv:"CV",
+
+contact:"Kontakt",
+
+
+intro:
+"Geomatiker | Hydrographic Data Processing Specialist | GIS-specialist"
+
+
+
+}
+
+
+};
+
+
+</script>
 <script src="script.js"></script>
 
 
