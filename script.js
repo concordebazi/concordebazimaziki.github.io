@@ -338,30 +338,78 @@ L.marker(location.coords)
 
 }
 
-/* =====================================================
+/* ==========================================
    LANGUAGE TRANSLATION
-===================================================== */
+========================================== */
+
+const languageData = {
+
+en:{
+
+navHome:"Home",
+navAbout:"About",
+navExperience:"Experience",
+navSkills:"Skills",
+navProjects:"Projects",
+navGallery:"Gallery",
+navCV:"CV",
+navContact:"Contact",
+
+aboutTitle:"About Me",
+experienceTitle:"Professional Experience",
+skillsTitle:"Technical Skills",
+projectsTitle:"Projects & Expertise",
+galleryTitle:"Gallery",
+cvTitle:"Professional CV",
+contactTitle:"Contact"
+
+},
+
+sv:{
+
+navHome:"Hem",
+navAbout:"Om mig",
+navExperience:"Yrkeserfarenhet",
+navSkills:"Tekniska färdigheter",
+navProjects:"Projekt",
+navGallery:"Galleri",
+navCV:"CV",
+navContact:"Kontakt",
+
+aboutTitle:"Om mig",
+experienceTitle:"Yrkeserfarenhet",
+skillsTitle:"Tekniska färdigheter",
+projectsTitle:"Projekt och expertis",
+galleryTitle:"Galleri",
+cvTitle:"Professionellt CV",
+contactTitle:"Kontakt"
+
+}
+
+};
 
 
-function changeLanguage(language){
 
+function changeLanguage(lang){
 
-const elements =
-document.querySelectorAll("[data-en]");
+localStorage.setItem("language",lang);
 
+document.getElementById("nav-home").innerText=languageData[lang].navHome;
+document.getElementById("nav-about").innerText=languageData[lang].navAbout;
+document.getElementById("nav-experience").innerText=languageData[lang].navExperience;
+document.getElementById("nav-skills").innerText=languageData[lang].navSkills;
+document.getElementById("nav-projects").innerText=languageData[lang].navProjects;
+document.getElementById("nav-gallery").innerText=languageData[lang].navGallery;
+document.getElementById("nav-cv").innerText=languageData[lang].navCV;
+document.getElementById("nav-contact").innerText=languageData[lang].navContact;
 
-
-elements.forEach(element=>{
-
-
-element.textContent =
-element.getAttribute(
-"data-" + language
-);
-
-
-});
-
+document.getElementById("about-title").innerText=languageData[lang].aboutTitle;
+document.getElementById("experience-title").innerText=languageData[lang].experienceTitle;
+document.getElementById("skills-title").innerText=languageData[lang].skillsTitle;
+document.getElementById("projects-title").innerText=languageData[lang].projectsTitle;
+document.getElementById("gallery-title").innerText=languageData[lang].galleryTitle;
+document.getElementById("cv-title").innerText=languageData[lang].cvTitle;
+document.getElementById("contact-title").innerText=languageData[lang].contactTitle;
 
 }
 /* =====================================================
@@ -470,3 +518,26 @@ changeLanguage("en");
 
 
 };
+window.addEventListener("load",()=>{
+
+const savedLanguage=localStorage.getItem("language");
+
+if(savedLanguage){
+
+changeLanguage(savedLanguage);
+
+}else{
+
+if(navigator.language.startsWith("sv")){
+
+changeLanguage("sv");
+
+}else{
+
+changeLanguage("en");
+
+}
+
+}
+
+});
