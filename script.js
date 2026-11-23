@@ -9,10 +9,10 @@ const i18n = {
     navAbout: "About", navExperience: "Experience", navExpertise: "Expertise", navProjects: "Projects", navContact: "Contact",
     heroRole: "GIS Engineer & Geomatics Specialist",
     heroLede: "I build maps, spatial analyses and Web GIS applications that turn location data into clear decisions, with a background in hydrographic survey and nautical charting.",
-    btnCv: "Download CV", btnContact: "Get in touch", nowAt: "Now at Ocean Infinity",
+    btnCv: "Download CV", btnContact: "Get in touch", nowAt: "Open to GIS roles",
     labelAbout: "About", aboutTitle: "GIS professional, from raw data to finished map",
     focus1: "Spatial analysis", focus2: "Web GIS", focus3: "Spatial databases", focus4: "Terrain & raster analysis", focus5: "Cartography", focus6: "Data quality control",
-    labelExperience: "Experience", experienceTitle: "Where I have worked", present: "Present",
+    labelExperience: "Experience", experienceTitle: "Where I have worked",
     labelExpertise: "Expertise", expertiseTitle: "What I work with",
     area1: "Hydrographic processing", area1Text: "Multibeam bathymetry, side-scan sonar and backscatter, from raw soundings to cleaned surfaces.",
     area2: "GIS & cartography", area2Text: "Spatial analysis, geographic databases and map production, from planning maps to nautical charts.",
@@ -30,18 +30,18 @@ const i18n = {
     labelWork: "Work", workTitle: "In the field and on screen",
     g1: "Offshore survey operations", g2: "Bathymetric surface", g3: "Data processing & QC", g4: "GIS analysis",
     mapTitle: "Career map", mapText: "Places connected to my education and career, from Kigali to the Swedish west coast.",
-    labelContact: "Contact", contactTitle: "Let's talk about your survey data",
-    contactText: "Open to conversations about hydrographic processing, GIS and marine geospatial projects.",
+    labelContact: "Contact", contactTitle: "Let's work together",
+    contactText: "I am available for GIS roles in Sweden. Get in touch about GIS analysis, Web GIS or geospatial data projects.",
     email: "Email", location: "Location", copy: "Copy", copied: "Copied", backTop: "Back to top ↑"
   },
   sv: {
     navAbout: "Om mig", navExperience: "Erfarenhet", navExpertise: "Kompetens", navProjects: "Projekt", navContact: "Kontakt",
     heroRole: "GIS-ingenjör & geomatikspecialist",
     heroLede: "Jag bygger kartor, rumsliga analyser och Web GIS-applikationer som gör geodata till tydliga beslutsunderlag, med bakgrund inom hydrografisk mätning och sjökortsproduktion.",
-    btnCv: "Ladda ner CV", btnContact: "Kontakta mig", nowAt: "Nu på Ocean Infinity",
+    btnCv: "Ladda ner CV", btnContact: "Kontakta mig", nowAt: "Öppen för GIS-roller",
     labelAbout: "Om mig", aboutTitle: "GIS-specialist, från rådata till färdig karta",
     focus1: "Rumslig analys", focus2: "Web GIS", focus3: "Geodatabaser", focus4: "Terräng- & rasteranalys", focus5: "Kartografi", focus6: "Kvalitetskontroll av data",
-    labelExperience: "Erfarenhet", experienceTitle: "Där jag har arbetat", present: "Nu",
+    labelExperience: "Erfarenhet", experienceTitle: "Där jag har arbetat",
     labelExpertise: "Kompetens", expertiseTitle: "Det jag arbetar med",
     area1: "Hydrografisk databehandling", area1Text: "Multibeam-batymetri, sidescan-sonar och backscatter, från råa lodningar till rensade ytor.",
     area2: "GIS & kartografi", area2Text: "Rumslig analys, geografiska databaser och kartproduktion, från planeringskartor till sjökort.",
@@ -59,8 +59,8 @@ const i18n = {
     labelWork: "Arbete", workTitle: "Till havs och vid skärmen",
     g1: "Offshore-undersökningar", g2: "Batymetrisk yta", g3: "Databehandling & QC", g4: "GIS-analys",
     mapTitle: "Karriärkarta", mapText: "Platser kopplade till min utbildning och karriär, från Kigali till svenska västkusten.",
-    labelContact: "Kontakt", contactTitle: "Låt oss prata om era mätdata",
-    contactText: "Öppen för samtal om hydrografisk databehandling, GIS och marina geodataprojekt.",
+    labelContact: "Kontakt", contactTitle: "Låt oss arbeta tillsammans",
+    contactText: "Jag är tillgänglig för GIS-roller i Sverige. Hör av dig om GIS-analys, Web GIS eller geodataprojekt.",
     email: "E-post", location: "Ort", copy: "Kopiera", copied: "Kopierat", backTop: "Till toppen ↑"
   }
 };
@@ -183,7 +183,7 @@ document.getElementById("year").textContent = new Date().getFullYear();
     { name: "Lund University", coords: [55.71, 13.20], text: "MSc Geomatics" },
     { name: "Älvstranden Utveckling AB", coords: [57.70, 11.94], text: "GIS Engineer, 2017" },
     { name: "Swedish Maritime Administration", coords: [58.59, 16.18], text: "Map Engineer, 2021–2025" },
-    { name: "Ocean Infinity, Gothenburg", coords: [57.71, 11.97], text: "Hydrographic Data Processor, 2025–present" }
+    { name: "Ocean Infinity, Gothenburg", coords: [57.71, 11.97], text: "Hydrographic Data Processor, 2025–2026" }
   ];
 
   const bounds = [];
