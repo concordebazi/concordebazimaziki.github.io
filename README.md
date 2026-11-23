@@ -23,7 +23,7 @@ Map Engineer
 ### Älvstranden Utveckling AB
 GIS Engineer
 
-### Rwanda Mining, Petroleum & Gas Board
+### Rwanda Mines, Petroleum and Gas Board
 GIS & Geospatial Officer
 
 
@@ -52,4 +52,4 @@ University of Rwanda
 
 ## Website
 
-Hosted using GitHub Pages.
+Hosted using GitHub Pages. Plain HTML, CSS and JavaScript — no build step.
