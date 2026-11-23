@@ -6,16 +6,27 @@ document.documentElement.classList.add("js");
 /* ---------- Translations (English / Svenska) ---------- */
 const i18n = {
   en: {
-    navAbout: "About", navExperience: "Experience", navExpertise: "Expertise", navWork: "Work", navContact: "Contact",
-    heroRole: "Hydrographic Data Processor & Geomatics Engineer",
-    heroLede: "I turn raw multibeam, backscatter and survey data into accurate seabed models, nautical charts and GIS products for offshore and marine projects.",
+    navAbout: "About", navExperience: "Experience", navExpertise: "Expertise", navProjects: "Projects", navContact: "Contact",
+    heroRole: "GIS Engineer & Geomatics Specialist",
+    heroLede: "I build maps, spatial analyses and Web GIS applications that turn location data into clear decisions, with a background in hydrographic survey and nautical charting.",
     btnCv: "Download CV", btnContact: "Get in touch", nowAt: "Now at Ocean Infinity",
-    labelAbout: "About", aboutTitle: "From survey line to finished chart",
+    labelAbout: "About", aboutTitle: "GIS professional, from raw data to finished map",
+    focus1: "Spatial analysis", focus2: "Web GIS", focus3: "Spatial databases", focus4: "Terrain & raster analysis", focus5: "Cartography", focus6: "Data quality control",
     labelExperience: "Experience", experienceTitle: "Where I have worked", present: "Present",
     labelExpertise: "Expertise", expertiseTitle: "What I work with",
     area1: "Hydrographic processing", area1Text: "Multibeam bathymetry, side-scan sonar and backscatter, from raw soundings to cleaned surfaces.",
-    area2: "GIS & cartography", area2Text: "Spatial analysis, geographic databases and map production, including nautical charts.",
-    area3: "Data & automation", area3Text: "Quality control, validation and scripting to make geospatial workflows repeatable.",
+    area2: "GIS & cartography", area2Text: "Spatial analysis, geographic databases and map production, from planning maps to nautical charts.",
+    area3: "Python & analysis", area3Text: "Raster and terrain analysis, automation and data APIs that make geospatial workflows repeatable.",
+    area4: "Web GIS", area4Text: "Interactive map applications with layers, filters, search, routing, heatmaps and drawing tools.",
+    labelProjects: "Projects", projectsTitle: "Web GIS projects you can try",
+    featKicker: "Featured · Terrain analysis",
+    featText: "A Web GIS for municipal planning in central Linköping. I processed Lantmäteriet's national elevation model in Python to derive terrain elevation, slope, surface depressions and low points, then modelled illustrative water-level scenarios for the Stångån river. The results are served as interactive layers with a GIS screening of each area.",
+    openDemo: "Open live demo",
+    d1: "Interactive business map", d1Text: "Business locations with category filters, map layers, search, drawing tools and proximity analysis.",
+    d2: "Delivery zone analysis", d2Text: "Delivery zones, demand heatmaps, order grouping and road-network routing for local restaurants.",
+    d3: "Mobile service routing", d3Text: "Customer bookings assigned to mobile mechanics, with optimised driving routes and live tracking.",
+    d4: "Project and fleet planning", d4Text: "Allocates teams and machines to project sites using real road distances.",
+    moreWork: "More web and GIS demos, including websites built for local businesses, are on",
     labelWork: "Work", workTitle: "In the field and on screen",
     g1: "Offshore survey operations", g2: "Bathymetric surface", g3: "Data processing & QC", g4: "GIS analysis",
     mapTitle: "Career map", mapText: "Places connected to my education and career, from Kigali to the Swedish west coast.",
@@ -24,16 +35,27 @@ const i18n = {
     email: "Email", location: "Location", copy: "Copy", copied: "Copied", backTop: "Back to top ↑"
   },
   sv: {
-    navAbout: "Om mig", navExperience: "Erfarenhet", navExpertise: "Kompetens", navWork: "Arbete", navContact: "Kontakt",
-    heroRole: "Hydrographic Data Processor & geomatikingenjör",
-    heroLede: "Jag omvandlar rå multibeam-, backscatter- och mätdata till noggranna havsbottenmodeller, sjökort och GIS-produkter för offshore- och marina projekt.",
+    navAbout: "Om mig", navExperience: "Erfarenhet", navExpertise: "Kompetens", navProjects: "Projekt", navContact: "Kontakt",
+    heroRole: "GIS-ingenjör & geomatikspecialist",
+    heroLede: "Jag bygger kartor, rumsliga analyser och Web GIS-applikationer som gör geodata till tydliga beslutsunderlag, med bakgrund inom hydrografisk mätning och sjökortsproduktion.",
     btnCv: "Ladda ner CV", btnContact: "Kontakta mig", nowAt: "Nu på Ocean Infinity",
-    labelAbout: "Om mig", aboutTitle: "Från mätlinje till färdigt sjökort",
+    labelAbout: "Om mig", aboutTitle: "GIS-specialist, från rådata till färdig karta",
+    focus1: "Rumslig analys", focus2: "Web GIS", focus3: "Geodatabaser", focus4: "Terräng- & rasteranalys", focus5: "Kartografi", focus6: "Kvalitetskontroll av data",
     labelExperience: "Erfarenhet", experienceTitle: "Där jag har arbetat", present: "Nu",
     labelExpertise: "Kompetens", expertiseTitle: "Det jag arbetar med",
     area1: "Hydrografisk databehandling", area1Text: "Multibeam-batymetri, sidescan-sonar och backscatter, från råa lodningar till rensade ytor.",
-    area2: "GIS & kartografi", area2Text: "Rumslig analys, geografiska databaser och kartproduktion, inklusive sjökort.",
-    area3: "Data & automatisering", area3Text: "Kvalitetskontroll, validering och skript som gör geodataflöden repeterbara.",
+    area2: "GIS & kartografi", area2Text: "Rumslig analys, geografiska databaser och kartproduktion, från planeringskartor till sjökort.",
+    area3: "Python & analys", area3Text: "Raster- och terränganalys, automatisering och data-API:er som gör geodataflöden repeterbara.",
+    area4: "Web GIS", area4Text: "Interaktiva kartapplikationer med lager, filter, sök, ruttplanering, värmekartor och ritverktyg.",
+    labelProjects: "Projekt", projectsTitle: "Web GIS-projekt att testa",
+    featKicker: "Utvalt · Terränganalys",
+    featText: "En Web GIS för kommunal planering i centrala Linköping. Jag bearbetade Lantmäteriets markhöjdmodell i Python för att ta fram markhöjd, lutning, sänkor och lågpunkter, och modellerade illustrativa vattennivåscenarier för Stångån. Resultaten visas som interaktiva lager med en GIS-screening av varje område.",
+    openDemo: "Öppna live-demo",
+    d1: "Interaktiv företagskarta", d1Text: "Företagsplatser med kategorifilter, kartlager, sökfunktion, ritverktyg och närhetsanalys.",
+    d2: "Analys av leveranszoner", d2Text: "Leveranszoner, efterfrågevärmekartor, ordergruppering och ruttplanering i vägnätet för lokala restauranger.",
+    d3: "Ruttplanering för mobil service", d3Text: "Kundbokningar fördelas till mobila mekaniker med optimerade körvägar och liveuppföljning.",
+    d4: "Projekt- och maskinplanering", d4Text: "Fördelar team och maskiner till projektplatser utifrån verkliga vägavstånd.",
+    moreWork: "Fler webb- och GIS-demon, bland annat webbplatser för lokala företag, finns på",
     labelWork: "Arbete", workTitle: "Till havs och vid skärmen",
     g1: "Offshore-undersökningar", g2: "Batymetrisk yta", g3: "Databehandling & QC", g4: "GIS-analys",
     mapTitle: "Karriärkarta", mapText: "Platser kopplade till min utbildning och karriär, från Kigali till svenska västkusten.",
@@ -105,7 +127,7 @@ const sectionObserver = new IntersectionObserver(entries => {
 document.querySelectorAll("main section[id]").forEach(s => sectionObserver.observe(s));
 
 /* ---------- Reveal on scroll ---------- */
-const revealTargets = document.querySelectorAll(".section h2, .about-body, .job, .skill-area, .shot, .journey, .contact-card");
+const revealTargets = document.querySelectorAll(".section h2, .about-body, .job, .skill-area, .feature, .demo, .shot, .journey, .contact-card");
 const revealObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {

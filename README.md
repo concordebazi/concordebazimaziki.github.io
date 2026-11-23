@@ -1,6 +1,6 @@
 # Concorde Bazimaziki Portfolio
 
-## Geomatics Engineer | Hydrographic Data Processing Specialist | GIS Professional
+## GIS Engineer | Geomatics Specialist | Web GIS | Hydrographic Data Processing
 
 Professional portfolio website showcasing experience in:
 
@@ -53,3 +53,9 @@ University of Rwanda
 ## Website
 
 Hosted using GitHub Pages. Plain HTML, CSS and JavaScript — no build step.
+
+
+## Web GIS projects
+
+Live demos: https://concordebazi.github.io/CB-WebGIS-Demos/  
+More work: https://cbwebgis.se/
