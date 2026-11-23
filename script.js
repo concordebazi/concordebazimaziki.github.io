@@ -32,7 +32,66 @@ const i18n = {
     mapTitle: "Career map", mapText: "Places connected to my education and career, from Kigali to the Swedish west coast.",
     labelContact: "Contact", contactTitle: "Let's work together",
     contactText: "I am available for GIS roles in Sweden. Get in touch about GIS analysis, Web GIS or geospatial data projects.",
-    email: "Email", location: "Location", copy: "Copy", copied: "Copied", backTop: "Back to top ↑"
+    email: "Email", location: "Location", copy: "Copy", copied: "Copied", backTop: "Back to top ↑",
+    skip: "Skip to content",
+    eyebrow: "57.71° N · 11.97° E — Gothenburg, Sweden",
+    about1: "I am a Geomatics Engineer with a Master's degree in Geomatics from Lund University. I have worked with GIS since 2009: mapping mineral resources and managing geological databases in Rwanda, supporting urban development projects in Gothenburg, and producing nautical charts at the Swedish Maritime Administration.",
+    about2: "My GIS work covers the whole chain: collecting and cleaning data, managing spatial databases, running analysis in ArcGIS Pro, QGIS and Python, and presenting results as clear maps and interactive web applications. I use Python with rasterio, NumPy and SciPy for raster and terrain analysis, and Leaflet and JavaScript to build Web GIS tools with routing, heatmaps, filtering and proximity analysis.",
+    eduMsc: "Geomatics",
+    eduLund: "Lund University, Sweden",
+    eduBsc: "Geography, Environment & Development",
+    date1: "Feb 2025 – Oct 2026",
+    date2: "Mar 2021 – Mar 2025",
+    date3: "Apr – Oct 2017",
+    date4: "Jan 2009 – Jun 2013",
+    job2: "Map Engineer",
+    job3: "GIS Engineer",
+    job4: "GIS & Geospatial Officer",
+    org1: "Ocean Infinity AB · Gothenburg",
+    org2: "Swedish Maritime Administration",
+    org3: "Älvstranden Utveckling AB · Gothenburg",
+    j1a: "Processed offshore hydrographic survey data from acquisition to final delivery",
+    j1b: "Cleaned, validated and quality-controlled multibeam echo sounder (MBES) data",
+    j1c: "Processed backscatter data",
+    j1d: "Delivered marine data products to client and project specifications",
+    j2a: "Hydrographic database management",
+    j2b: "Nautical chart production and marine cartography",
+    j2c: "Quality control of depth data",
+    j3a: "GIS analysis and mapping solutions",
+    j3b: "Spatial database administration",
+    j4a: "Mineral resource mapping and geological GIS databases",
+    j4b: "Permit management systems",
+    j4c: "Cartographic production",
+    tagSpatialDb: "Spatial databases",
+    tagCharting: "Nautical charting",
+    tagOsrm: "OSRM routing",
+    tagDem: "Lantmäteriet DEM",
+    type2: "GIS · Delivery analysis",
+    type3: "GIS · Route planning",
+    type4: "GIS · Resource planning",
+    city: "Gothenburg, Sweden",
+    cvEn: "English (PDF)",
+    about3: "Most recently I processed multibeam and backscatter data at Ocean Infinity in Gothenburg, until the company closed its Swedish office in October 2026. I also run <a href=\"https://cbwebgis.se/\" target=\"_blank\" rel=\"noopener\">CB Web &amp; GIS</a>, where I design and build Web GIS demos and map applications. I am now looking for GIS roles where I can combine analysis, data management and web mapping.",
+    altPortrait: "Portrait of Concorde Bazimaziki",
+    altVessel: "Offshore survey vessel at sea",
+    altBathy: "3D bathymetric surface of the seabed",
+    altProc: "Hydrographic processing software showing a seabed profile",
+    altGis: "GIS map with point data over a city",
+    ariaMain: "Main",
+    ariaLang: "Language",
+    ariaMenu: "Open menu",
+    ariaFocus: "GIS focus areas",
+    ariaMap: "Map of career locations",
+    docTitle: "Concorde Bazimaziki | GIS Engineer & Geomatics Specialist",
+    popUR: "BSc Geography, Environment and Development",
+    popRMB: "GIS & Geospatial Officer, 2009–2013",
+    popLund: "MSc Geomatics",
+    popAlv: "GIS Engineer, 2017",
+    popSMA: "Map Engineer, 2021–2025",
+    popOI: "Hydrographic Data Processor, 2025–2026",
+    popOIname: "Ocean Infinity, Gothenburg",
+    popSMAname: "Swedish Maritime Administration",
+    popLundName: "Lund University"
   },
   sv: {
     navAbout: "Om mig", navExperience: "Erfarenhet", navExpertise: "Kompetens", navProjects: "Projekt", navContact: "Kontakt",
@@ -61,11 +120,71 @@ const i18n = {
     mapTitle: "Karriärkarta", mapText: "Platser kopplade till min utbildning och karriär, från Kigali till svenska västkusten.",
     labelContact: "Kontakt", contactTitle: "Låt oss arbeta tillsammans",
     contactText: "Jag är tillgänglig för GIS-roller i Sverige. Hör av dig om GIS-analys, Web GIS eller geodataprojekt.",
-    email: "E-post", location: "Ort", copy: "Kopiera", copied: "Kopierat", backTop: "Till toppen ↑"
+    email: "E-post", location: "Ort", copy: "Kopiera", copied: "Kopierat", backTop: "Till toppen ↑",
+    skip: "Hoppa till innehållet",
+    eyebrow: "57.71° N · 11.97° E — Göteborg, Sverige",
+    about1: "Jag är geomatikingenjör med masterexamen i geomatik från Lunds universitet. Jag har arbetat med GIS sedan 2009: med kartläggning av mineralresurser och geologiska databaser i Rwanda, stöd till stadsutvecklingsprojekt i Göteborg och sjökortsproduktion på Sjöfartsverket.",
+    about2: "Mitt GIS-arbete täcker hela kedjan: insamling och rensning av data, hantering av geodatabaser, analyser i ArcGIS Pro, QGIS och Python samt presentation av resultat som tydliga kartor och interaktiva webbapplikationer. Jag använder Python med rasterio, NumPy och SciPy för raster- och terränganalys, och Leaflet och JavaScript för att bygga Web GIS-verktyg med ruttplanering, värmekartor, filtrering och närhetsanalys.",
+    eduMsc: "Geomatik",
+    eduLund: "Lunds universitet",
+    eduBsc: "Geografi, miljö och utveckling",
+    date1: "feb 2025 – okt 2026",
+    date2: "mar 2021 – mar 2025",
+    date3: "apr – okt 2017",
+    date4: "jan 2009 – jun 2013",
+    job2: "Kartingenjör",
+    job3: "GIS-ingenjör",
+    job4: "GIS- och geodatahandläggare",
+    org1: "Ocean Infinity AB · Göteborg",
+    org2: "Sjöfartsverket",
+    org3: "Älvstranden Utveckling AB · Göteborg",
+    j1a: "Bearbetade hydrografiska mätdata från offshore-undersökningar, från insamling till slutleverans",
+    j1b: "Rensade, validerade och kvalitetskontrollerade multibeamdata (MBES)",
+    j1c: "Bearbetade backscatterdata",
+    j1d: "Levererade marina dataprodukter enligt kund- och projektspecifikationer",
+    j2a: "Hantering av hydrografiska databaser",
+    j2b: "Sjökortsproduktion och marin kartografi",
+    j2c: "Kvalitetskontroll av djupdata",
+    j3a: "GIS-analyser och kartlösningar",
+    j3b: "Administration av geodatabaser",
+    j4a: "Kartläggning av mineralresurser och geologiska GIS-databaser",
+    j4b: "System för tillståndshantering",
+    j4c: "Kartproduktion",
+    tagSpatialDb: "Geodatabaser",
+    tagCharting: "Sjökortsproduktion",
+    tagOsrm: "OSRM-ruttplanering",
+    tagDem: "Lantmäteriets höjdmodell",
+    type2: "GIS · Leveransanalys",
+    type3: "GIS · Ruttplanering",
+    type4: "GIS · Resursplanering",
+    city: "Göteborg, Sverige",
+    cvEn: "Engelska (PDF)",
+    about3: "Senast bearbetade jag multibeam- och backscatterdata på Ocean Infinity i Göteborg, tills företaget stängde sitt svenska kontor i oktober 2026. Jag driver också <a href=\"https://cbwebgis.se/\" target=\"_blank\" rel=\"noopener\">CB Web &amp; GIS</a>, där jag utformar och bygger Web GIS-demon och kartapplikationer. Nu söker jag GIS-roller där jag kan kombinera analys, datahantering och webbkartor.",
+    altPortrait: "Porträtt av Concorde Bazimaziki",
+    altVessel: "Mätfartyg till havs",
+    altBathy: "Tredimensionell batymetrisk yta av havsbotten",
+    altProc: "Programvara för hydrografisk databehandling med en havsbottenprofil",
+    altGis: "GIS-karta med punktdata över en stad",
+    ariaMain: "Huvudmeny",
+    ariaLang: "Språk",
+    ariaMenu: "Öppna menyn",
+    ariaFocus: "GIS-fokusområden",
+    ariaMap: "Karta över platser i min karriär",
+    docTitle: "Concorde Bazimaziki | GIS-ingenjör & geomatikspecialist",
+    popUR: "Kandidatexamen i geografi, miljö och utveckling",
+    popRMB: "GIS- och geodatahandläggare, 2009–2013",
+    popLund: "Masterexamen i geomatik",
+    popAlv: "GIS-ingenjör, 2017",
+    popSMA: "Kartingenjör, 2021–2025",
+    popOI: "Hydrographic Data Processor, 2025–2026",
+    popOIname: "Ocean Infinity, Göteborg",
+    popSMAname: "Sjöfartsverket",
+    popLundName: "Lunds universitet"
   }
 };
 
 let currentLang = "en";
+let updateMapPopups = null;
 
 function setLanguage(lang) {
   if (!i18n[lang]) lang = "en";
@@ -75,6 +194,20 @@ function setLanguage(lang) {
     const text = i18n[lang][el.dataset.i18n];
     if (text) el.textContent = text;
   });
+  document.querySelectorAll("[data-i18n-html]").forEach(el => {
+    const markup = i18n[lang][el.dataset.i18nHtml];
+    if (markup) el.innerHTML = markup;
+  });
+  document.querySelectorAll("[data-i18n-alt]").forEach(el => {
+    const text = i18n[lang][el.dataset.i18nAlt];
+    if (text) el.alt = text;
+  });
+  document.querySelectorAll("[data-i18n-aria]").forEach(el => {
+    const text = i18n[lang][el.dataset.i18nAria];
+    if (text) el.setAttribute("aria-label", text);
+  });
+  document.title = i18n[lang].docTitle;
+  if (updateMapPopups) updateMapPopups();
   document.querySelectorAll(".lang button").forEach(btn => {
     btn.setAttribute("aria-pressed", String(btn.dataset.lang === lang));
   });
@@ -178,20 +311,23 @@ document.getElementById("year").textContent = new Date().getFullYear();
   const icon = L.divIcon({ className: "", html: '<div class="pin"></div>', iconSize: [16, 16], iconAnchor: [8, 8] });
 
   const places = [
-    { name: "University of Rwanda", coords: [-1.95, 30.06], text: "BSc Geography, Environment and Development" },
-    { name: "Rwanda Mines, Petroleum and Gas Board", coords: [-1.93, 30.10], text: "GIS & Geospatial Officer, 2009–2013" },
-    { name: "Lund University", coords: [55.71, 13.20], text: "MSc Geomatics" },
-    { name: "Älvstranden Utveckling AB", coords: [57.70, 11.94], text: "GIS Engineer, 2017" },
-    { name: "Swedish Maritime Administration", coords: [58.59, 16.18], text: "Map Engineer, 2021–2025" },
-    { name: "Ocean Infinity, Gothenburg", coords: [57.71, 11.97], text: "Hydrographic Data Processor, 2025–2026" }
+    { name: "University of Rwanda", coords: [-1.95, 30.06], text: "popUR" },
+    { name: "Rwanda Mines, Petroleum and Gas Board", coords: [-1.93, 30.10], text: "popRMB" },
+    { name: "popLundName", coords: [55.71, 13.20], text: "popLund" },
+    { name: "Älvstranden Utveckling AB", coords: [57.70, 11.94], text: "popAlv" },
+    { name: "popSMAname", coords: [58.59, 16.18], text: "popSMA" },
+    { name: "popOIname", coords: [57.71, 11.97], text: "popOI" }
   ];
+  const t = key => i18n[currentLang][key] || key;
+  const markers = [];
 
   const bounds = [];
+  const popupHtml = p => `<strong>${t(p.name)}</strong><p>${t(p.text)}</p>`;
   places.forEach(p => {
-    L.marker(p.coords, { icon }).addTo(map)
-      .bindPopup(`<strong>${p.name}</strong><p>${p.text}</p>`);
+    markers.push([L.marker(p.coords, { icon }).addTo(map).bindPopup(popupHtml(p)), p]);
     bounds.push(p.coords);
   });
+  updateMapPopups = () => markers.forEach(([m, p]) => m.setPopupContent(popupHtml(p)));
   map.fitBounds(bounds, { padding: [40, 40] });
 })();
 
