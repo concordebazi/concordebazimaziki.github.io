@@ -423,3 +423,4 @@ a.contact-value:hover, .cv-links a:hover { text-decoration: underline; }
 @media (prefers-reduced-motion: reduce) {
   .feature-media img, .demo { transition: none; }
 }
+.education em { font-style: normal; font-size: .85rem; color: var(--muted); margin-top: 2px; }
