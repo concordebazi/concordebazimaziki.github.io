@@ -45,7 +45,7 @@ CONTENT = {
                       "Användarstöd och kunskapsdelning"],
         "jobs": [
             {"role": "Hydrographic Data Processor, Grade 1", "org": "Ocean Infinity AB", "place": "Göteborg",
-             "dates": "feb 2025 – sep 2026",
+             "dates": "feb 2025 – okt 2026",
              "note": "Tjänsten upphörde när företaget stängde sitt svenska kontor.",
              "bullets": [
                  "Bearbetade multibeam-ekolodsdata (MBES) i CARIS HIPS och QPS Qimera, från datarensning och kontroll till kvalitetssäkrade leveranser.",
@@ -90,7 +90,7 @@ CONTENT = {
              ]},
         ],
         "projects": [
-            {"name": "Platsvy", "slug": None, "text": "Webbverktyg för förstudier av mark inför industrietableringar i Sverige."},
+            {"name": "Platsvy", "slug": None, "url": "https://platsvy.se/", "text": "Webbverktyg för förstudier av mark inför industrietableringar i Sverige."},
             {"name": "GeoRisk AI", "slug": "georisk-ai/", "text": "Terränganalys i Linköping: Lantmäteriets markhöjdmodell bearbetad i Python (lutning, sänkor, lågpunkter) med illustrativa vattennivåscenarier för Stångån."},
             {"name": "Interaktiv företagskarta", "slug": "business-map/", "text": "Kategorifilter, kartlager, sökfunktion, ritverktyg och närhetsanalys."},
             {"name": "Smart projektplanering", "slug": "smart-projektplanering/", "text": "Fördelar team och maskiner till projektplatser utifrån verkliga vägavstånd."},
@@ -137,7 +137,7 @@ CONTENT = {
                       "User support and knowledge sharing"],
         "jobs": [
             {"role": "Hydrographic Data Processor, Grade 1", "org": "Ocean Infinity AB", "place": "Gothenburg",
-             "dates": "Feb 2025 – Sep 2026",
+             "dates": "Feb 2025 – Oct 2026",
              "note": "Role ended when the company closed its Swedish office.",
              "bullets": [
                  "Processed multibeam echo sounder (MBES) data in CARIS HIPS and QPS Qimera, from cleaning and checks to quality-assured deliverables.",
@@ -182,7 +182,7 @@ CONTENT = {
              ]},
         ],
         "projects": [
-            {"name": "Platsvy", "slug": None, "text": "Web tool for land pre-studies ahead of industrial site development in Sweden."},
+            {"name": "Platsvy", "slug": None, "url": "https://platsvy.se/", "text": "Web tool for land pre-studies ahead of industrial site development in Sweden."},
             {"name": "GeoRisk AI", "slug": "georisk-ai/", "text": "Terrain analysis in Linköping: Lantmäteriet's elevation model processed in Python (slope, depressions, low points) with illustrative water-level scenarios for the Stångån river."},
             {"name": "Interactive business map", "slug": "business-map/", "text": "Category filters, map layers, search, drawing tools and proximity analysis."},
             {"name": "Smart project planning", "slug": "smart-projektplanering/", "text": "Assigns teams and machines to project sites using real road distances."},
@@ -349,8 +349,8 @@ def build(lang):
     jobs_p2 = "".join(job_html(j) for j in c["jobs"][2:])
 
     def proj_html(p):
-        if p["slug"]:
-            url = DEMOS + p["slug"]
+        url = p.get("url") or (DEMOS + p["slug"] if p["slug"] else None)
+        if url:
             name = f'<a href="{url}">{escape(p["name"])} ↗</a>'
             tail = ""
         else:
