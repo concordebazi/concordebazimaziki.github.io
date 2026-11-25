@@ -22,223 +22,189 @@ LINKS = {
 DEMOS = "https://concordebazi.github.io/CB-WebGIS-Demos/"
 
 CONTENT = {
-    "en": {
-        "lang": "en",
-        "title": "GIS Engineer & Geomatics Specialist",
-        "location": "Gothenburg, Sweden",
-        "citizenship": "Swedish and Rwandan citizen",
-        "labels": {
-            "contact": "Contact", "links": "Links", "profile": "Profile", "experience": "Experience",
-            "projects": "Web GIS projects", "education": "Education", "skills": "Skills",
-            "languages": "Languages", "personal": "Personal qualities", "references": "References",
-            "email": "Email", "phone": "Phone", "location": "Location", "portfolio": "Portfolio",
-            "website": "Company website", "live": "Live demo", "all_demos": "All demos",
-        },
-        "profile": [
-            "Geomatics Engineer with an MSc from Lund University and GIS experience since 2009 across mining, urban development, national nautical charting and offshore survey. I work across the whole geospatial chain: collecting and cleaning data, managing spatial databases, running analysis in ArcGIS Pro, QGIS and Python, and delivering clear maps and interactive Web GIS applications.",
-            "Known for accuracy and quality control from years of hydrographic data processing, and for building practical Web GIS tools through my own studio, CB Web & GIS. I am now looking for a GIS role where I can combine spatial analysis, data management and web mapping.",
-        ],
-        "jobs": [
-            {
-                "role": "Hydrographic Data Processor",
-                "org": "Ocean Infinity AB", "place": "Gothenburg",
-                "dates": "Feb 2025 – Oct 2026",
-                "note": "Role ended when the company closed its Swedish office.",
-                "bullets": [
-                    "Processed hydrographic survey data from acquisition to final delivery.",
-                    "Performed quality control, validation and cleaning of MBES and backscatter data.",
-                    "Worked in CARIS HIPS, QPS Qimera, FMGT, EIVA NaviModel and Qinsy.",
-                    "Made sure deliverables met project requirements, client specifications and internal quality standards.",
-                    "Worked with senior data processors, offshore teams and international project groups on MBES, SSS and geophysical projects.",
-                    "Documented workflows, checks and results.",
-                ],
-            },
-            {
-                "role": "Map Engineer, Hydrographic Data Processing",
-                "org": "Swedish Maritime Administration (Sjöfartsverket)", "place": "Sweden",
-                "dates": "Mar 2021 – Mar 2025",
-                "bullets": [
-                    "Processed and quality-controlled hydrographic survey data for nautical chart products.",
-                    "Cleaned, analysed and validated depth data.",
-                    "Worked with geographic databases and the production of geospatial information.",
-                    "Managed and checked survey data against technical standards and requirements.",
-                    "Contributed to the development and quality assurance of nautical chart data.",
-                ],
-            },
-            {
-                "role": "GIS Engineer",
-                "org": "Älvstranden Utveckling AB", "place": "Gothenburg",
-                "dates": "Apr 2017 – Oct 2017",
-                "bullets": [
-                    "Handled GIS data management, map production and geographic analysis.",
-                    "Produced maps and GIS-based decision support.",
-                    "Updated and administered geographic databases.",
-                    "Supported the organisation with GIS questions and analysis.",
-                ],
-            },
-            {
-                "role": "GIS Specialist / Information Officer, Mining and Mineral Data",
-                "org": "Rwanda Mines, Petroleum and Gas Board", "place": "Kigali, Rwanda",
-                "dates": "Jan 2009 – Jun 2013",
-                "bullets": [
-                    "Produced maps of mineral resources and geographic information.",
-                    "Mapped geological, geochemical and geophysical data together with geologists.",
-                    "Contributed to geological maps and national geodatabases.",
-                    "Managed databases of mining licences and permit data, and tracked permit status.",
-                    "Reviewed documentation following standard procedures and reported permit status to management.",
-                ],
-            },
-        ],
-        "projects": [
-            {
-                "name": "GeoRisk AI", "slug": "georisk-ai/",
-                "text": "Web GIS for municipal planning in central Linköping. Processed Lantmäteriet's elevation model in Python to derive elevation, slope, depressions and low points, with illustrative water-level scenarios for the Stångån river.",
-                "tech": "Python · rasterio · NumPy · SciPy · FastAPI · Leaflet",
-            },
-            {
-                "name": "Interactive business map", "slug": "business-map/",
-                "text": "Business locations with category filters, map layers, search, drawing tools and proximity analysis.",
-                "tech": "Leaflet · Leaflet.draw · JavaScript",
-            },
-            {
-                "name": "Delivery zone analysis", "slug": "pizza-delivery/",
-                "text": "Delivery zones, demand heatmaps, order grouping and road-network routing.",
-                "tech": "Leaflet.heat · OSRM",
-            },
-            {
-                "name": "Route and resource planning", "slug": "smart-projektplanering/",
-                "text": "Assigns teams, vehicles and machines to sites using real road distances and optimised routes.",
-                "tech": "Leaflet · OSRM",
-            },
-        ],
-        "education": [
-            ("MSc in Geomatics", "Lund University, Sweden"),
-            ("BSc in Geography, Environment and Development", "University of Rwanda"),
-        ],
-        "skills": [
-            ("GIS and geodata", ["GIS analysis", "Spatial databases", "Digital map production", "Cartography", "Spatial data management", "Terrain and raster analysis"]),
-            ("Web GIS and programming", ["Python (rasterio, NumPy, SciPy)", "FastAPI", "Leaflet", "JavaScript", "SQL", "HTML / CSS"]),
-            ("Hydrography", ["Multibeam echo sounder (MBES)", "Side-scan sonar (SSS)", "Sub-bottom profiler (SBP)", "Backscatter processing", "Bathymetric cleaning and QC"]),
-            ("Software", ["ArcGIS Pro (Esri)", "QGIS", "CARIS HIPS", "QPS Qimera", "FMGT", "EIVA NaviModel", "Qinsy", "POSPac (Applanix)"]),
-        ],
-        "languages": [("Swedish", "Very good, spoken and written"), ("English", "Fluent"), ("French", "Fluent")],
-        "personal": [
-            "Accurate and quality-minded",
-            "Strong analytical skills",
-            "Experienced in international, technical project environments",
-            "Independent and a good team player",
-            "Quick to learn new systems and methods",
-        ],
-        "references": "Available on request.",
-    },
     "sv": {
         "lang": "sv",
-        "title": "GIS-ingenjör & geomatikspecialist",
+        "title": "GIS-ingenjör · Geodata, Web GIS och kartografi",
         "location": "Göteborg",
-        "citizenship": "Svenskt och rwandiskt medborgarskap",
+        "citizenship": "Svenskt medborgarskap",
         "labels": {
-            "contact": "Kontakt", "links": "Länkar", "profile": "Profil", "experience": "Arbetslivserfarenhet",
-            "projects": "Web GIS-projekt", "education": "Utbildning", "skills": "Kompetenser",
+            "contact": "Kontakt", "links": "Länkar", "profile": "Profil", "strengths": "Kompetens i korthet",
+            "experience": "Arbetslivserfarenhet", "earlier": "Tidigare arbetslivserfarenhet",
+            "projects": "GIS-projekt och demonstrationer", "education": "Utbildning", "skills": "System och verktyg",
             "languages": "Språk", "personal": "Personliga egenskaper", "references": "Referenser",
             "email": "E-post", "phone": "Telefon", "location": "Ort", "portfolio": "Portfolio",
-            "website": "Företagets webbplats", "live": "Live-demo", "all_demos": "Alla demon",
+            "website": "Företagets webbplats", "all_demos": "Alla demon",
         },
         "profile": [
-            "Geomatikingenjör med masterexamen från Lunds universitet och GIS-erfarenhet sedan 2009 inom gruvsektorn, stadsutveckling, nationell sjökortsproduktion och offshore-mätning. Jag arbetar i hela geodatakedjan: insamling och rensning av data, hantering av geodatabaser, analys i ArcGIS Pro, QGIS och Python samt leverans av tydliga kartor och interaktiva Web GIS-applikationer.",
-            "Jag har en stark känsla för noggrannhet och kvalitetskontroll från flera års hydrografisk databehandling, och bygger praktiska Web GIS-verktyg i mitt eget företag CB Web & GIS. Nu söker jag en GIS-roll där jag kan kombinera rumslig analys, datahantering och webbkartor.",
+            "GIS-ingenjör och geomatiker med masterexamen från Lunds universitet och GIS-erfarenhet sedan 2005: från markförvaltning och gruvsektorn i Rwanda till stadsutveckling i Göteborg, sjökortsproduktion på Sjöfartsverket och offshore-mätning på Ocean Infinity.",
+            "Jag är van att förvalta och ajourhålla geodata i geografiska databaser, följa dokumenterade rutiner och ta fram tillförlitliga kartor och underlag i ArcGIS Pro, QGIS och Python. Genom mitt företag CB Web & GIS bygger jag interaktiva Web GIS-prototyper.",
+            "Jag trivs med att ge stöd till användare och samarbeta med olika verksamheter, och vill gärna utvecklas vidare inom ArcGIS Enterprise, systemförvaltning och GIS-stöd i offentlig verksamhet.",
         ],
+        "strengths": ["GIS-plattformar och karttjänster", "ArcGIS Pro och QGIS", "Geodataförvaltning och ajourhållning",
+                      "Geodatabaser", "Datakvalitet och dokumentation", "GIS-analys och kartografi", "Web GIS",
+                      "Användarstöd och kunskapsdelning"],
         "jobs": [
-            {
-                "role": "Hydrographic Data Processor",
-                "org": "Ocean Infinity AB", "place": "Göteborg",
-                "dates": "Feb 2025 – okt 2026",
-                "note": "Tjänsten upphörde när företaget stängde sitt svenska kontor.",
-                "bullets": [
-                    "Bearbetade hydrografiska mätdata från insamling till slutleverans.",
-                    "Utförde kvalitetskontroll (QC), validering och rensning av MBES- och backscatterdata.",
-                    "Arbetade i CARIS HIPS, QPS Qimera, FMGT, EIVA NaviModel och Qinsy.",
-                    "Säkerställde att leveranser uppfyllde projektkrav, kundspecifikationer och interna kvalitetsstandarder.",
-                    "Samarbetade med senior data processors, offshore-team och internationella projektgrupper i MBES-, SSS- och geofysiska projekt.",
-                    "Dokumenterade arbetsflöden, kontroller och resultat.",
-                ],
-            },
-            {
-                "role": "Kartingenjör, hydrografisk databehandling",
-                "org": "Sjöfartsverket", "place": "Sverige",
-                "dates": "Mar 2021 – mar 2025",
-                "bullets": [
-                    "Bearbetade och kvalitetskontrollerade hydrografiska mätdata för sjökortsprodukter.",
-                    "Utförde datarensning, analys och validering av djupdata.",
-                    "Arbetade med geografiska databaser och produktion av geografisk information.",
-                    "Hanterade och kontrollerade mätdata enligt tekniska standarder och krav.",
-                    "Bidrog till utveckling och kvalitetssäkring av nautiska kartunderlag.",
-                ],
-            },
-            {
-                "role": "GIS-ingenjör",
-                "org": "Älvstranden Utveckling AB", "place": "Göteborg",
-                "dates": "Apr 2017 – okt 2017",
-                "bullets": [
-                    "Arbetade med GIS-datahantering, kartframställning och geografiska analyser.",
-                    "Producerade kartor och GIS-baserade beslutsunderlag.",
-                    "Uppdaterade och administrerade geografiska databaser.",
-                    "Stödde verksamheten i GIS-relaterade frågor och analyser.",
-                ],
-            },
-            {
-                "role": "GIS-specialist / informationshandläggare, gruv- och mineraldata",
-                "org": "Rwanda Mines, Petroleum and Gas Board", "place": "Kigali, Rwanda",
-                "dates": "Jan 2009 – jun 2013",
-                "bullets": [
-                    "Producerade kartor över mineralresurser och geografisk information.",
-                    "Kartlade geologiska, geokemiska och geofysiska data tillsammans med geologer.",
-                    "Bidrog till geologiska kartor och nationella geodatabaser.",
-                    "Hanterade databaser för gruvlicenser och tillståndsdata samt följde upp tillståndsstatus.",
-                    "Granskade dokumentation enligt standardiserade rutiner och rapporterade status till ledningen.",
-                ],
-            },
+            {"role": "Hydrographic Data Processor, Grade 1", "org": "Ocean Infinity AB", "place": "Göteborg",
+             "dates": "feb 2025 – sep 2026",
+             "note": "Tjänsten upphörde när företaget stängde sitt svenska kontor.",
+             "bullets": [
+                 "Bearbetade multibeam-ekolodsdata (MBES) i CARIS HIPS och QPS Qimera, från datarensning och kontroll till kvalitetssäkrade leveranser.",
+                 "Kontrollerade navigerings- och tidvattenunderlag, SVP och refraktion samt hanterade SBET-relaterade leveransunderlag.",
+                 "Tog fram batymetriska ytor och DTM med 0,2 m och 1 m upplösning enligt projektspecifikationer; bearbetade backscatter i FMGT.",
+                 "Säkerställde att leveranser uppfyllde projektkrav, kundspecifikationer och interna kvalitetsstandarder.",
+                 "Dokumenterade arbetsflöden och överlämningar och samarbetade med offshore-team och internationella projektgrupper för att lösa datafrågor och hålla kvalitet och tidsramar.",
+             ]},
+            {"role": "Kartingenjör, Sjögeografi / Källdata", "org": "Sjöfartsverket", "place": "Sverige",
+             "dates": "mar 2021 – mar 2025",
+             "bullets": [
+                 "Kvalitetsgranskade sjömätningsresultat och förde in samt ajourhöll geografisk information i myndighetens djupdatabas.",
+                 "Bearbetade sjögeografiska datateman i DIS och tog fram kartor och djupdataprodukter enligt fastställda rutiner.",
+                 "Rensade, analyserade och validerade djupdata enligt tekniska standarder och krav.",
+                 "Kontrollerade bland annat vrak och avvikelser i sjökort samt bidrog i kartografi, korrekturläsning och dokumenterad kvalitetssäkring.",
+             ]},
+            {"role": "GIS-ingenjör", "org": "Älvstranden Utveckling AB", "place": "Göteborg",
+             "dates": "apr – okt 2017",
+             "bullets": [
+                 "Tog fram tematiska kartor och GIS-underlag från detaljplaner, arkitektritningar och annan geografisk information.",
+                 "Mätte och analyserade ytor, beräknade BTA och sammanställde underlag för stadsutveckling och fastighetsfrågor.",
+                 "Uppdaterade och administrerade geografiska databaser och gav GIS-stöd till verksamheten.",
+             ]},
+            {"role": "GIS- och geodatamedarbetare", "org": "Rwanda Mines, Petroleum and Gas Board", "place": "Kigali, Rwanda",
+             "dates": "jan 2009 – jun 2013",
+             "bullets": [
+                 "Hanterade geografiska databaser för gruvlicenser och tillstånd, inklusive registrering, uppdatering och uppföljning av geodata.",
+                 "Tog fram och uppdaterade geologiska och geokemiska kartunderlag, bland annat i skala 1:50 000, i samarbete med geologer.",
+                 "Producerade kartor över mineralresurser och bidrog till nationella geodatabaser.",
+                 "Stödde datakontroll och rapportering till ledningen inom resurskartläggning och förvaltning av geografisk information.",
+             ]},
+            {"role": "Lantmätare", "org": "Nyarugenge och Kamonyi kommuner", "place": "Rwanda",
+             "dates": "2007 – 2009",
+             "bullets": [
+                 "Arbetade med mark- och stadsområdesinformation tillsammans med offentliga och privata aktörer, med GIS som stöd för markförvaltning.",
+             ]},
+            {"role": "GIS-tekniker", "org": "GIS Centre, University of Rwanda", "place": "Rwanda",
+             "dates": "2005 – 2006",
+             "bullets": [
+                 "Digitaliserade och kartlade geodata och bidrog till datastrukturer för GIS-lagring.",
+                 "Demonstrerade GIS-lösningar och gav stöd till användare.",
+             ]},
         ],
         "projects": [
-            {
-                "name": "GeoRisk AI", "slug": "georisk-ai/",
-                "text": "Web GIS för kommunal planering i centrala Linköping. Bearbetade Lantmäteriets markhöjdmodell i Python för att ta fram markhöjd, lutning, sänkor och lågpunkter, med illustrativa vattennivåscenarier för Stångån.",
-                "tech": "Python · rasterio · NumPy · SciPy · FastAPI · Leaflet",
-            },
-            {
-                "name": "Interaktiv företagskarta", "slug": "business-map/",
-                "text": "Företagsplatser med kategorifilter, kartlager, sökfunktion, ritverktyg och närhetsanalys.",
-                "tech": "Leaflet · Leaflet.draw · JavaScript",
-            },
-            {
-                "name": "Analys av leveranszoner", "slug": "pizza-delivery/",
-                "text": "Leveranszoner, efterfrågevärmekartor, ordergruppering och ruttplanering i vägnätet.",
-                "tech": "Leaflet.heat · OSRM",
-            },
-            {
-                "name": "Rutt- och resursplanering", "slug": "smart-projektplanering/",
-                "text": "Fördelar team, fordon och maskiner till platser utifrån verkliga vägavstånd och optimerade rutter.",
-                "tech": "Leaflet · OSRM",
-            },
+            {"name": "Platsvy", "slug": None, "text": "Webbverktyg för förstudier av mark inför industrietableringar i Sverige."},
+            {"name": "GeoRisk AI", "slug": "georisk-ai/", "text": "Terränganalys i Linköping: Lantmäteriets markhöjdmodell bearbetad i Python (lutning, sänkor, lågpunkter) med illustrativa vattennivåscenarier för Stångån."},
+            {"name": "Interaktiv företagskarta", "slug": "business-map/", "text": "Kategorifilter, kartlager, sökfunktion, ritverktyg och närhetsanalys."},
+            {"name": "Smart projektplanering", "slug": "smart-projektplanering/", "text": "Fördelar team och maskiner till projektplatser utifrån verkliga vägavstånd."},
+            {"name": "Mobil bilservice", "slug": "mobile-mechanic/", "text": "Uppdragsfördelning och optimerade körvägar för mobila mekaniker."},
+            {"name": "Analys av leveranszoner", "slug": "pizza-delivery/", "text": "Leveranszoner, efterfrågevärmekartor och ruttplanering i vägnätet."},
         ],
+        "projects_note": "Byggda med Leaflet, JavaScript, Python och OSRM. Demonstrationerna använder delvis exempel- eller simulerade data.",
         "education": [
-            ("Masterexamen (MSc) i geomatik", "Lunds universitet"),
-            ("Kandidatexamen i geografi, miljö och utveckling", "University of Rwanda"),
+            ("Masterexamen (MSc) i geomatik", "Lunds universitet", "2018 – 2021", "Forskningsprojekt om geografisk spårning och kartläggning av covid-19 i Sverige."),
+            ("Kandidatexamen i geografi, miljö och utveckling", "University of Rwanda", "", ""),
         ],
         "skills": [
-            ("GIS och geodata", ["GIS-analys", "Geodatabaser", "Digital kartproduktion", "Kartografi", "Spatial datahantering", "Terräng- och rasteranalys"]),
-            ("Web GIS och programmering", ["Python (rasterio, NumPy, SciPy)", "FastAPI", "Leaflet", "JavaScript", "SQL", "HTML / CSS"]),
-            ("Hydrografi", ["Multibeam (MBES)", "Sidescan-sonar (SSS)", "Sub-bottom profiler (SBP)", "Backscatterbearbetning", "Batymetrisk datarensning och QC"]),
-            ("Programvara", ["ArcGIS Pro (Esri)", "QGIS", "CARIS HIPS", "QPS Qimera", "FMGT", "EIVA NaviModel", "Qinsy", "POSPac (Applanix)"]),
+            ("GIS och kartografi", ["ArcGIS Pro (Esri)", "QGIS", "AutoCAD", "GDAL", "DIS / Djupdata", "GIS-analys", "Kartografi", "Terräng- och rasteranalys"]),
+            ("Geodata och databaser", ["Geodatabaser", "PostgreSQL / PostGIS", "SQL (grundläggande)", "Geodataförvaltning", "Datakvalitet och QC"]),
+            ("Skriptning och Web GIS", ["Python", "GeoPandas", "rasterio", "NumPy / SciPy", "Jupyter", "FastAPI", "Leaflet", "HTML / CSS / JavaScript", "API:er"]),
+            ("Hydrografi", ["MBES", "Sidescan-sonar (SSS)", "Sub-bottom profiler (SBP)", "Backscatter", "CARIS HIPS / SIPS", "QPS Qimera", "FMGT", "Qinsy", "POSPac", "EIVA NaviModel / NaviEdit"]),
+            ("Övrigt", ["FME Form / Flow (begränsad erfarenhet)"]),
         ],
-        "languages": [("Svenska", "Mycket goda kunskaper i tal och skrift"), ("Engelska", "Flytande"), ("Franska", "Flytande")],
-        "personal": [
-            "Noggrann och kvalitetsmedveten",
-            "Stark analytisk förmåga",
-            "Van vid internationella och tekniska projektmiljöer",
-            "Självständig med god samarbetsförmåga",
-            "Snabb på att lära mig nya system och arbetsmetoder",
-        ],
+        "languages": [("Svenska", "God arbetsnivå i tal och skrift"), ("Engelska", "Flytande"), ("Franska", "Flytande")],
+        "personal": ["Noggrann och kvalitetsmedveten", "Stark analytisk förmåga", "Van vid internationella och tekniska projektmiljöer",
+                     "Självständig med god samarbetsförmåga", "Snabb på att lära mig nya system och arbetsmetoder"],
         "references": "Lämnas på begäran.",
+    },
+    "en": {
+        "lang": "en",
+        "title": "GIS Engineer · Geodata, Web GIS and Cartography",
+        "location": "Gothenburg, Sweden",
+        "citizenship": "Swedish citizen",
+        "labels": {
+            "contact": "Contact", "links": "Links", "profile": "Profile", "strengths": "Key skills",
+            "experience": "Experience", "earlier": "Earlier experience",
+            "projects": "GIS projects and demos", "education": "Education", "skills": "Systems and tools",
+            "languages": "Languages", "personal": "Personal qualities", "references": "References",
+            "email": "Email", "phone": "Phone", "location": "Location", "portfolio": "Portfolio",
+            "website": "Company website", "all_demos": "All demos",
+        },
+        "profile": [
+            "GIS Engineer and geomatics specialist with an MSc from Lund University and GIS experience since 2005: from land administration and the mining sector in Rwanda to urban development in Gothenburg, nautical charting at the Swedish Maritime Administration and offshore survey at Ocean Infinity.",
+            "I am used to maintaining and updating geodata in geographic databases, following documented procedures, and producing reliable maps and analyses in ArcGIS Pro, QGIS and Python. Through my company CB Web & GIS I build interactive Web GIS prototypes.",
+            "I enjoy supporting users and working across departments, and I want to develop further in ArcGIS Enterprise, system administration and GIS support for public-sector organisations.",
+        ],
+        "strengths": ["GIS platforms and map services", "ArcGIS Pro and QGIS", "Geodata management and updating",
+                      "Geodatabases", "Data quality and documentation", "GIS analysis and cartography", "Web GIS",
+                      "User support and knowledge sharing"],
+        "jobs": [
+            {"role": "Hydrographic Data Processor, Grade 1", "org": "Ocean Infinity AB", "place": "Gothenburg",
+             "dates": "Feb 2025 – Sep 2026",
+             "note": "Role ended when the company closed its Swedish office.",
+             "bullets": [
+                 "Processed multibeam echo sounder (MBES) data in CARIS HIPS and QPS Qimera, from cleaning and checks to quality-assured deliverables.",
+                 "Checked navigation and tide data, SVP and refraction, and handled SBET-related delivery data.",
+                 "Produced bathymetric surfaces and DTMs at 0.2 m and 1 m resolution to project specifications; processed backscatter in FMGT.",
+                 "Made sure deliverables met project requirements, client specifications and internal quality standards.",
+                 "Documented workflows and handovers, and worked with offshore teams and international project groups to resolve data issues and keep quality and deadlines.",
+             ]},
+            {"role": "Map Engineer, Marine Geography / Source Data", "org": "Swedish Maritime Administration", "place": "Sweden",
+             "dates": "Mar 2021 – Mar 2025",
+             "bullets": [
+                 "Quality-reviewed hydrographic survey results, and entered and maintained geographic information in the agency's depth database.",
+                 "Processed marine geographic data themes in DIS and produced maps and depth data products following established procedures.",
+                 "Cleaned, analysed and validated depth data against technical standards and requirements.",
+                 "Checked wrecks and discrepancies in nautical charts, and contributed to cartography, proofreading and documented quality assurance.",
+             ]},
+            {"role": "GIS Engineer", "org": "Älvstranden Utveckling AB", "place": "Gothenburg",
+             "dates": "Apr – Oct 2017",
+             "bullets": [
+                 "Produced thematic maps and GIS data from detailed development plans, architectural drawings and other geographic information.",
+                 "Measured and analysed areas, calculated gross floor area (BTA) and compiled data for urban development and property matters.",
+                 "Updated and administered geographic databases and provided GIS support to the organisation.",
+             ]},
+            {"role": "GIS and Geodata Officer", "org": "Rwanda Mines, Petroleum and Gas Board", "place": "Kigali, Rwanda",
+             "dates": "Jan 2009 – Jun 2013",
+             "bullets": [
+                 "Managed geographic databases for mining licences and permits, including registering, updating and following up geodata.",
+                 "Produced and updated geological and geochemical maps, including at 1:50,000 scale, together with geologists.",
+                 "Produced maps of mineral resources and contributed to national geodatabases.",
+                 "Supported data checks and reporting to management for resource mapping and geographic information management.",
+             ]},
+            {"role": "Land Surveyor", "org": "Nyarugenge and Kamonyi districts", "place": "Rwanda",
+             "dates": "2007 – 2009",
+             "bullets": [
+                 "Worked with land and urban area information together with public and private stakeholders, using GIS to support land administration.",
+             ]},
+            {"role": "GIS Technician", "org": "GIS Centre, University of Rwanda", "place": "Rwanda",
+             "dates": "2005 – 2006",
+             "bullets": [
+                 "Digitised and mapped geodata and contributed to data structures for GIS storage.",
+                 "Demonstrated GIS solutions and supported users.",
+             ]},
+        ],
+        "projects": [
+            {"name": "Platsvy", "slug": None, "text": "Web tool for land pre-studies ahead of industrial site development in Sweden."},
+            {"name": "GeoRisk AI", "slug": "georisk-ai/", "text": "Terrain analysis in Linköping: Lantmäteriet's elevation model processed in Python (slope, depressions, low points) with illustrative water-level scenarios for the Stångån river."},
+            {"name": "Interactive business map", "slug": "business-map/", "text": "Category filters, map layers, search, drawing tools and proximity analysis."},
+            {"name": "Smart project planning", "slug": "smart-projektplanering/", "text": "Assigns teams and machines to project sites using real road distances."},
+            {"name": "Mobile service routing", "slug": "mobile-mechanic/", "text": "Job allocation and optimised driving routes for mobile mechanics."},
+            {"name": "Delivery zone analysis", "slug": "pizza-delivery/", "text": "Delivery zones, demand heatmaps and road-network routing."},
+        ],
+        "projects_note": "Built with Leaflet, JavaScript, Python and OSRM. The demos partly use example or simulated data.",
+        "education": [
+            ("MSc in Geomatics", "Lund University, Sweden", "2018 – 2021", "Research project on geographic tracking and mapping of COVID-19 in Sweden."),
+            ("BSc in Geography, Environment and Development", "University of Rwanda", "", ""),
+        ],
+        "skills": [
+            ("GIS and cartography", ["ArcGIS Pro (Esri)", "QGIS", "AutoCAD", "GDAL", "DIS / depth database", "GIS analysis", "Cartography", "Terrain and raster analysis"]),
+            ("Geodata and databases", ["Geodatabases", "PostgreSQL / PostGIS", "SQL (basic)", "Geodata management", "Data quality and QC"]),
+            ("Scripting and Web GIS", ["Python", "GeoPandas", "rasterio", "NumPy / SciPy", "Jupyter", "FastAPI", "Leaflet", "HTML / CSS / JavaScript", "APIs"]),
+            ("Hydrography", ["MBES", "Side-scan sonar (SSS)", "Sub-bottom profiler (SBP)", "Backscatter", "CARIS HIPS / SIPS", "QPS Qimera", "FMGT", "Qinsy", "POSPac", "EIVA NaviModel / NaviEdit"]),
+            ("Other", ["FME Form / Flow (limited experience)"]),
+        ],
+        "languages": [("Swedish", "Good professional level, spoken and written"), ("English", "Fluent"), ("French", "Fluent")],
+        "personal": ["Accurate and quality-minded", "Strong analytical skills", "Experienced in international, technical project environments",
+                     "Independent and a good team player", "Quick to learn new systems and methods"],
+        "references": "Available on request.",
     },
 }
 
@@ -250,7 +216,7 @@ CSS = """
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
-body { font-family: "Instrument Sans", "Segoe UI", Arial, sans-serif; color: var(--ink); font-size: 9.2pt; line-height: 1.45;
+body { font-family: "Instrument Sans", "Segoe UI", Arial, sans-serif; color: var(--ink); font-size: 8.6pt; line-height: 1.38;
   -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 a { color: inherit; text-decoration: none; }
 .mono { font-family: "IBM Plex Mono", Menlo, monospace; }
@@ -258,7 +224,7 @@ h1, h2, h3 { font-family: "Bricolage Grotesque", "Segoe UI", Arial, sans-serif; 
 
 .page { display: grid; grid-template-columns: 64mm 1fr; height: 297mm; overflow: hidden; }
 .side { background: var(--side); color: var(--side-ink); padding: 14mm 7mm 12mm 9mm; }
-.main { padding: 13mm 12mm 12mm 10mm; }
+.main { padding: 11mm 11mm 10mm 9mm; }
 
 .photo { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 4mm; display: block; margin-bottom: 7mm; }
 .side h2 { font-family: "IBM Plex Mono", Menlo, monospace; font-weight: 500; font-size: 7.2pt; letter-spacing: .14em;
@@ -279,25 +245,25 @@ h1, h2, h3 { font-family: "Bricolage Grotesque", "Segoe UI", Arial, sans-serif; 
 .plain li { color: var(--side-ink); padding-left: 3mm; position: relative; font-size: 8.4pt; }
 .plain li::before { content: ""; position: absolute; left: 0; top: .62em; width: 1.6mm; height: 1px; background: var(--side-accent); }
 
-header.top { border-bottom: 1px solid var(--line); padding-bottom: 5mm; margin-bottom: 5mm; }
+header.top { border-bottom: 1px solid var(--line); padding-bottom: 4mm; margin-bottom: 4mm; }
 header.top h1 { font-size: 27pt; letter-spacing: -.03em; line-height: 1; }
 header.top .role { font-family: "Bricolage Grotesque", Arial, sans-serif; font-size: 12.5pt; color: var(--accent); margin-top: 2mm; font-weight: 500; }
 header.top .meta { margin-top: 2.5mm; color: var(--muted); font-size: 8.4pt; display: flex; flex-wrap: wrap; gap: 1mm 4mm; }
 header.top .meta a { color: var(--accent); }
 
-section { margin-bottom: 5mm; }
+section { margin-bottom: 4mm; }
 .main h2 { font-family: "IBM Plex Mono", Menlo, monospace; font-weight: 500; font-size: 7.4pt; letter-spacing: .14em;
-  text-transform: uppercase; color: var(--magenta); margin-bottom: 2.5mm; }
-.profile p { margin: 0 0 2mm; font-size: 9.4pt; }
+  text-transform: uppercase; color: var(--magenta); margin-bottom: 1.8mm; }
+.profile p { margin: 0 0 1.4mm; font-size: 8.8pt; }
 
-.job { display: grid; grid-template-columns: 27mm 1fr; gap: 4mm; padding: 2.6mm 0; border-top: 1px solid var(--line); break-inside: avoid; }
+.job { display: grid; grid-template-columns: 25mm 1fr; gap: 4mm; padding: 2mm 0; border-top: 1px solid var(--line); break-inside: avoid; }
 .job:first-of-type { border-top: 0; padding-top: 0; }
 .job .dates { font-size: 7.6pt; color: var(--muted); padding-top: .6mm; }
-.job h3 { font-size: 10.6pt; letter-spacing: -.01em; }
+.job h3 { font-size: 10pt; letter-spacing: -.01em; }
 .job .org { color: var(--muted); font-weight: 500; margin-top: .3mm; }
 .job .note { font-size: 7.8pt; color: var(--muted); font-style: italic; margin-top: .6mm; }
-.job ul, .proj ul { margin: 1.6mm 0 0; padding-left: 3.6mm; }
-.job li { margin-bottom: .5mm; }
+.job ul, .proj ul { margin: 1mm 0 0; padding-left: 3.6mm; }
+.job li { margin-bottom: .2mm; }
 .job li::marker { color: var(--accent); }
 
 .projects { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
@@ -310,13 +276,24 @@ section { margin-bottom: 5mm; }
 .more { margin-top: 2.5mm; font-size: 8.4pt; color: var(--muted); }
 .more a { color: var(--accent); }
 
-.edu { display: grid; gap: 2mm; }
+.edu { display: grid; gap: 1.6mm; }
 .edu div { display: grid; }
 .edu strong { font-weight: 600; }
 .edu span { color: var(--muted); }
 
+.strengths { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 1.4mm; }
+.strengths li { font-size: 8pt; padding: .6mm 2.4mm; border-radius: 10mm; background: #e7f3f7; color: var(--ink); }
+.edu em { font-style: normal; color: var(--muted); font-size: 8.4pt; }
+.edu-years { font-size: 7.8pt; }
+.plist { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2mm 5mm; }
+.plist li { break-inside: avoid; }
+.plist strong { font-family: "Bricolage Grotesque", Arial, sans-serif; font-size: 9.4pt; }
+.plist strong a { color: var(--ink); }
+.plist span { color: var(--muted); }
+.plink { display: block; font-size: 7pt; color: var(--accent); }
+
 .page + .page { break-before: page; }
-.page + .page .main { padding-top: 11mm; }
+.page + .page .main { padding-top: 10mm; }
 .refs { margin: 0; font-size: 8.4pt; }
 """
 
@@ -352,6 +329,7 @@ def build(lang):
     )
     langs = "".join(f"<li>{escape(n)}<span>{escape(lvl)}</span></li>" for n, lvl in c["languages"])
     personal = "".join(f"<li>{escape(p)}</li>" for p in c["personal"])
+    strengths = "".join(f"<li>{escape(s)}</li>" for s in c["strengths"])
 
     def job_html(j):
         note = f'<p class="note">{escape(j["note"])}</p>' if j.get("note") else ""
@@ -369,17 +347,25 @@ def build(lang):
 
     jobs_p1 = "".join(job_html(j) for j in c["jobs"][:2])
     jobs_p2 = "".join(job_html(j) for j in c["jobs"][2:])
-    projects = "".join(
-        f"""
-        <article class="proj">
-          <h3><a href="{DEMOS}{p['slug']}">{escape(p['name'])} ↗</a></h3>
-          <p>{escape(p['text'])}</p>
-          <p class="tech mono">{escape(p['tech'])}</p>
-          <a class="link mono" href="{DEMOS}{p['slug']}">{escape((DEMOS + p['slug']).replace('https://', ''))}</a>
-        </article>"""
-        for p in c["projects"]
-    )
-    edu = "".join(f"<div><strong>{escape(d)}</strong><span>{escape(s)}</span></div>" for d, s in c["education"])
+
+    def proj_html(p):
+        if p["slug"]:
+            url = DEMOS + p["slug"]
+            name = f'<a href="{url}">{escape(p["name"])} ↗</a>'
+            tail = ""
+        else:
+            name, tail = escape(p["name"]), ""
+        return f'<li><strong>{name}</strong> <span>{escape(p["text"])}</span>{tail}</li>'
+
+    projects = "".join(proj_html(p) for p in c["projects"])
+
+    def edu_html(e):
+        degree, school, years, note = e
+        yrs = f'<span class="mono edu-years">{escape(years)}</span>' if years else ""
+        nt = f'<em>{escape(note)}</em>' if note else ""
+        return f"<div><strong>{escape(degree)}</strong><span>{escape(school)}{' · ' if years else ''}{yrs}</span>{nt}</div>"
+
+    edu = "".join(edu_html(e) for e in c["education"])
     profile = "".join(f"<p>{escape(p)}</p>" for p in c["profile"])
 
     return f"""<!DOCTYPE html>
@@ -406,6 +392,7 @@ def build(lang):
       <p class="meta"><span>{escape(c['location'])}</span><span>{escape(c['citizenship'])}</span>{link('linkedin', 'LinkedIn')}{link('portfolio', L['portfolio'])}</p>
     </header>
     <section class="profile"><h2>{L['profile']}</h2>{profile}</section>
+    <section><h2>{L['strengths']}</h2><ul class="strengths">{strengths}</ul></section>
     <section><h2>{L['experience']}</h2>{jobs_p1}</section>
   </main>
 </div>
@@ -415,13 +402,13 @@ def build(lang):
     <h2>{L['references']}</h2><p class="refs">{escape(c['references'])}</p>
   </aside>
   <main class="main">
-    <section><h2>{L['experience']}</h2>{jobs_p2}</section>
+    <section><h2>{L['earlier']}</h2>{jobs_p2}</section>
+    <section><h2>{L['education']}</h2><div class="edu">{edu}</div></section>
     <section>
       <h2>{L['projects']}</h2>
-      <div class="projects">{projects}</div>
-      <p class="more">{L['all_demos']}: <a href="{DEMOS}">{DEMOS.replace('https://', '')}</a> · {L['website']}: {link('cbweb')}</p>
+      <ul class="plist">{projects}</ul>
+      <p class="more">{escape(c['projects_note'])} {L['all_demos']}: <a href="{DEMOS}">{DEMOS.replace('https://', '')}</a> · {L['website']}: {link('cbweb')}</p>
     </section>
-    <section><h2>{L['education']}</h2><div class="edu">{edu}</div></section>
   </main>
 </div>
 </body>
